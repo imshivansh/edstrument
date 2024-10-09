@@ -38,6 +38,8 @@ curl -X POST http://localhost:8080/api/products -H "Content-Type: application/js
     "productDescription": "This is a sample description",
     "productPrice": 19
 }'
+
+
 4. Update an Existing Product
 Updates an existing product identified by ID. Replace {id} with the actual product ID and adjust the JSON data in the -d option to reflect the updates you want to make.
 curl -X PUT http://localhost:8080/api/products/{id} -H "Content-Type: application/json" \
